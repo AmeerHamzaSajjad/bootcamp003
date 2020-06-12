@@ -30,7 +30,7 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
           
-    - name: Build React App
+    - name: build react app
       run: yarn Build
       
     - name: install surge
